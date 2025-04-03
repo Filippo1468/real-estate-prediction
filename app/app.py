@@ -4,8 +4,8 @@ import joblib
 import numpy as np
 
 
-model1 = joblib.load("models/real_estate_model_features1.pkl")  
-model2 = joblib.load("models/real_estate_model_features2.pkl")  
+model1 = joblib.load("../models/real_estate_model_features1.pkl")  
+model2 = joblib.load("../models/real_estate_model_features2.pkl")  
 
 st.title("Predizione del prezzo degli immobili")
 
