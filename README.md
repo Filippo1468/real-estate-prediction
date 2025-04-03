@@ -23,7 +23,7 @@ Il dataset utilizzato per l'addestramento del modello proviene da un set di dati
 ## Installazione
 1. **Clonare il repository**:
    ```bash
-   git clone https://github.com/Filippo1468/real-estate-price-prediction.git
+   git clone https://github.com/Filippo1468/real-estate-prediction.git
    cd real-estate-price-prediction
 2. **Installare le dipendenze**:
    ```bash
