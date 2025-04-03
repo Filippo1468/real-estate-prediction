@@ -15,7 +15,7 @@ y = df['Y house price of unit area']
 
 for key, features in feature_sets.items():
     X = df[features]
-    
+
     if key == "features2":
         scaler = StandardScaler()
         X[['X5 latitude', 'X6 longitude']] = scaler.fit_transform(X[['X5 latitude', 'X6 longitude']])
